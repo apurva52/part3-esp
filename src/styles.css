@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+.p-overlaypanel .p-overlaypanel-content {
+    padding: 0;
+}
+
+.p-datatable .p-sortable-column:not(.p-highlight):hover {
+    font-weight: bold !important}
+
+    
+.p-datatable .p-sortable-column.p-highlight:hover {
+        background: #f8f9fa;
+        color: #666666 !important;
+        font-weight: bold !important;
+    }
+
+
+    .p-datatable .p-sortable-column:focus {
+        box-shadow:none !important
+    }
+
+    .p-datatable .p-sortable-column.p-highlight .p-sortable-column-icon {
+        color: #666666 !important;
+    }
+
+    .p-datatable .p-sortable-column.p-highlight{
+        color:#666666;
+        font-weight: bold;
+    }
+
+    .p-datatable .p-datatable-thead > tr > th{
+        color: #666666 !important;
+        font-weight: normal !important;    }
