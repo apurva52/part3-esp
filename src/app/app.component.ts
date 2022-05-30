@@ -1,7 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { OverlayPanel } from 'primeng-lts/overlaypanel';
-import { MessageService } from 'primeng-lts/api';
 import { HttpService } from './httpservice';
 
 
